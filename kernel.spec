@@ -975,7 +975,7 @@ Source4: broadcom-wl.blob
 %define evdi_version 1.14.11
 %define nvidia_version 590.48.01
 %define nvidia_version_rel 1
-%define nvidia_version_lts 580.95.05
+%define nvidia_version_lts 580.126.18
 %define nvidia_epoch 3
 %if %{with_nvidia}
 Source5: nvidia-kmod-%{_build_arch}-%{nvidia_version}-%{nvidia_version_rel}.tar.gz
